@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Taxistas</title>
+</head>
+<body>
+	<style type="text/css">
+		.rows{
+
+			text-align: center;
+			font-size: 24px;
+			
+
+		}
+		.geral{
+			
+			width: 1592px;
+			height: 150px;
+			background-color:red ;
+			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+		}
+		.taxistas{
+
+			height:150px;
+			width:398px;
+
+		}
+		.dias{
+
+			
+			width:2px;
+			background-color: blue ;
+
+		}
+
+
+	</style>
+	<div class="geral">
+		<table>
+		<tr class="rows">
+			<td class="taxistas">
+			<h1>Taxista 1</h1>
+			<p><button onclick="taxi1()">Entrar</button></p>
+
+		</td>
+	<td class="taxistas">
+			<h1 >Taxista 2</h1>
+			<p><button onclick="taxi2()">Entrar</button></p>
+
+		</td>
+	<td class="taxistas">
+			<h1 >Taxista 3</h1>
+			<p><button onclick="taxi3()">Entrar</button></p>
+
+		</td>
+	<td class="taxistas">
+			<h1>Taxista 4</h1>
+			<p><button onclick="taxi4()">Entrar</button></p>
+
+		</td></tr>
+	</table>
+	</div>
+
+
+		<div class="geral" id="taxista1">
+		<h1>Taxista 1</h1>
+		<table class="dias">
+			<tr>
+				<td>
+					<p>Segunda-Feira</p>
+					Nº de voltas:<input type="number" name="nt1-1">
+					Kilometragem do dia:<input type="number" name="kmt1-1">
+				</td>
+				<td>
+					<p>Segunda-Feira</p>
+					Nº de voltas:<input type="number" name="nt1-2">
+					Kilometragem do dia:<input type="number" name="kmt1-2">
+				</td>
+				<td>
+					<p>Segunda-Feira</p>
+					Nº de voltas:<input type="number" name="nt1-3">
+					Kilometragem do dia:<input type="number" name="kmt1-3">
+				</td>
+				<td>
+					<p>Segunda-Feira</p>
+					Nº de voltas:<input type="number" name="nt1-4">
+					Kilometragem do dia:<input type="number" name="kmt1-4">
+				</td>
+				<td>
+					<p>Segunda-Feira</p>
+					Nº de voltas:<input type="number" name="nt1-5">
+					Kilometragem do dia:<input type="number" name="kmt1-5">
+				</td>
+				<td>
+					<p>Segunda-Feira</p>
+					Nº de voltas:<input type="number" name="nt1-6">
+					Kilometragem do dia:<input type="number" name="kmt1-6">
+				</td>
+				<td>
+					<p>Segunda-Feira</p>
+					Nº de voltas:<input type="number" name="nt1-7">
+					Kilometragem do dia:<input type="number" name="kmt1-7">
+				</td>
+				<td>
+					<button onclick="voltar()">Voltar</button>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<br><br><br><br></br></br></br></br>
+	<div class="geral" id="taxista1">
+		
+		<h1>Taxista 2</h1>
+		<table class="dias">
+			<tr>
+				<td>
+					<p>Segunda-Feira</p>
+					Nº de voltas:<input type="number" name="nt2-1">
+					Kilometragem do dia:<input type="number" name="kmt2-1">
+				</td>
+				<td>
+					<p>Segunda-Feira</p>
+					Nº de voltas:<input type="number" name="nt2-2">
+					Kilometragem do dia:<input type="number" name="kmt2-2">
+				</td>
+				<td>
+					<p>Segunda-Feira</p>
+					Nº de voltas:<input type="number" name="nt2-3">
+					Kilometragem do dia:<input type="number" name="kmt2-3">
+				</td>
+				<td>
+					<p>Segunda-Feira</p>
+					Nº de voltas:<input type="number" name="nt2-4">
+					Kilometragem do dia:<input type="number" name="kmt2-4">
+				</td>
+				<td>
+					<p>Segunda-Feira</p>
+					Nº de voltas:<input type="number" name="nt2-5">
+					Kilometragem do dia:<input type="number" name="kmt2-5">
+				</td>
+				<td>
+					<p>Segunda-Feira</p>
+					Nº de voltas:<input type="number" name="nt2-6">
+					Kilometragem do dia:<input type="number" name="kmt2-6">
+				</td>
+				<td>
+					<p>Segunda-Feira</p>
+					Nº de voltas:<input type="number" name="nt2-7">
+					Kilometragem do dia:<input type="number" name="kmt2-7">
+				</td>
+				<td>
+					<button onclick="voltar()">Voltar</button>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<br><br><br><br></br></br></br></br>
+	<div class="geral" id="taxista1">
+		
+		<h1>Taxista 3</h1>
+		<table class="dias">
+			<tr>
+				<td>
+					<p>Segunda-Feira</p>
+					Nº de voltas:<input type="number" name="nt3-1">
+					Kilometragem do dia:<input type="number" name="kmt3-1">
+				</td>
+				<td>
+					<p>Segunda-Feira</p>
+					Nº de voltas:<input type="number" name="nt3-2">
+					Kilometragem do dia:<input type="number" name="kmt3-2">
+				</td>
+				<td>
+					<p>Segunda-Feira</p>
+					Nº de voltas:<input type="number" name="nt3-3">
+					Kilometragem do dia:<input type="number" name="kmt3-3">
+				</td>
+				<td>
+					<p>Segunda-Feira</p>
+					Nº de voltas:<input type="number" name="nt3-4">
+					Kilometragem do dia:<input type="number" name="kmt3-4">
+				</td>
+				<td>
+					<p>Segunda-Feira</p>
+					Nº de voltas:<input type="number" name="nt3-5">
+					Kilometragem do dia:<input type="number" name="kmt3-5">
+				</td>
+				<td>
+					<p>Segunda-Feira</p>
+					Nº de voltas:<input type="number" name="nt3-6">
+					Kilometragem do dia:<input type="number" name="kmt3-6">
+				</td>
+				<td>
+					<p>Segunda-Feira</p>
+					Nº de voltas:<input type="number" name="nt3-7">
+					Kilometragem do dia:<input type="number" name="kmt3-7">
+				</td>
+				<td>
+					<button onclick="voltar()">Voltar</button>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<br><br><br><br></br></br></br></br>
+	<div class="geral" id="taxista1">
+		
+		<h1>Taxista 4</h1>
+		<table class="dias">
+			<tr>
+				<td>
+					<p>Segunda-Feira</p>
+					Nº de voltas:<input type="number" name="nt4-1">
+					Kilometragem do dia:<input type="number" name="kmt4-1">
+				</td>
+				<td>
+					<p>Segunda-Feira</p>
+					Nº de voltas:<input type="number" name="nt4-2">
+					Kilometragem do dia:<input type="number" name="kmt4-2">
+				</td>
+				<td>
+					<p>Segunda-Feira</p>
+					Nº de voltas:<input type="number" name="nt4-3">
+					Kilometragem do dia:<input type="number" name="kmt4-3">
+				</td>
+				<td>
+					<p>Segunda-Feira</p>
+					Nº de voltas:<input type="number" name="nt4-4">
+					Kilometragem do dia:<input type="number" name="kmt4-4">
+				</td>
+				<td>
+					<p>Segunda-Feira</p>
+					Nº de voltas:<input type="number" name="nt4-5">
+					Kilometragem do dia:<input type="number" name="kmt4-5">
+				</td>
+				<td>
+					<p>Segunda-Feira</p>
+					Nº de voltas:<input type="number" name="nt4-6">
+					Kilometragem do dia:<input type="number" name="kmt4-6">
+				</td>
+				<td>
+					<p>Segunda-Feira</p>
+					Nº de voltas:<input type="number" name="nt4-7">
+					Kilometragem do dia:<input type="number" name="kmt4-7">
+				</td>
+				<td>
+					<button onclick="voltar()">Voltar</button>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+
+</body>
+</html>
